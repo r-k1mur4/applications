@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vue sample</title>
+  <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h2>テスト</h2>
+  <div id="app">
+    <p>{{myText}}</p>
+
+  </div>
+
+<script>
+  new Vue ({
+    el:'#app',
+    data: {
+      myText:'テストだお！！'
+    }
+  })
+
+</script>
+
+<script>
+    // new Vue ({
+    //   el:"#ID名",
+    //   data:{
+    //     プロパティ名：値,
+    //     プロパティ名：値
+    //   }
+    // })
+  </script>
+</body>
+</html>
+
+<!--
+↑↑↑
+1, div要素とVueインスタンスをつなぐ
+2, 文字を表示させたい場所に、マスタッシュでプロパティ名を記入
+3, Vueインスタンスの「data:」にデータを用意する
+
+ -->
