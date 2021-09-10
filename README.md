@@ -1,13 +1,6 @@
-# master
-my first repository
-
-
+# ディレクトリの説明
 
 ## markdownEditer  
 マークダウン記法で書くと自動でhtmlに変換されるツール
 
-    class Hoge
-        def hoge
-            print 'hoge'
-        end
-    end
+***
